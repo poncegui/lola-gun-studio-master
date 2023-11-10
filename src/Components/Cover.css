@@ -1,0 +1,25 @@
+@media (max-width: 960px) {
+  .cover-container > h3 {
+    font-size: 70px;
+    text-align: center;
+  }
+
+  .cover-container > p {
+    text-align: center;
+    font-size: 26px;
+    width: 85%;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover-container > h3 {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .cover-container > p {
+    text-align: center;
+    font-size: 22px;
+    width: 70%;
+  }
+}
