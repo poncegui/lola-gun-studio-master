@@ -15,20 +15,6 @@ const HeaderSection = () => {
       <HeaderTitle>
         <h1>/.LOLA GUN STUDIO</h1>
         <div class="elemento-con-texto">
-          <p>/.LOLA GUN STUDIO</p>
-          <p>/.LOLA GUN STUDIO</p>
-          <p>/.LOLA GUN STUDIO</p>
-          <p>/.LOLA GUN STUDIO</p>
-          <p>/.LOLA GUN STUDIO</p>
-          <p>/.LOLA GUN STUDIO</p>
-          <p>/.LOLA GUN STUDIO</p>
-          <p>/.LOLA GUN STUDIO</p>
-          <p>/.LOLA GUN STUDIO</p>
-          <p>/.LOLA GUN STUDIO</p>
-          <p>/.LOLA GUN STUDIO</p>
-          <p>/.LOLA GUN STUDIO</p>
-          <p>/.LOLA GUN STUDIO</p>
-          <p>/.LOLA GUN STUDIO</p>
         </div>
       </HeaderTitle>
       <MarginBottom margin="1rem" />
@@ -86,7 +72,7 @@ const HeaderContainer = styled.section`
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: #b0fd21; /* Color de la línea */
+    background-color: lightblue; /* Color de la línea */
     top: 50%;
     transform: scaleX(0); /* Inicialmente no visible */
     transform-origin: right;

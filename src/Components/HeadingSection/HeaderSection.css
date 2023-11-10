@@ -6,14 +6,12 @@
   letter-spacing: -5px;
 }
 
-/* Estilo inicial del elemento */
 .elemento-con-texto {
-  width: 200px;
-  height: 100px;
+  width: 400px;
+  height: 3px;
   background-color: lightblue;
   text-align: start;
   line-height: 100px;
-  /* El texto estará oculto inicialmente */
   overflow: hidden;
   position: relative;
   display: flex;
@@ -21,6 +19,7 @@
   justify-content: center;
   align-items: center;
   white-space: nowrap;
+  margin-bottom: 3%;
 }
 
 .elemento-con-texto:hover {
@@ -49,13 +48,11 @@
   background-color: lightblue;
   text-align: center;
   line-height: 100px;
-  /* El texto estará oculto inicialmente */
   overflow: hidden;
   position: relative;
   left: 15rem;
 }
 
-/* Al pasar el cursor sobre el elemento, mostrar el texto */
 .ActoContainerBlue:hover {
   overflow: visible;
 }

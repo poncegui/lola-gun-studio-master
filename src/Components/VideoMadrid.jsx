@@ -1,20 +1,25 @@
-import "../Components/cover/Cover";
-
 import React from "react";
-import coverVideo from "../Assets/video/video-madridr.MOV";
+import coverVideo from "../Assets/video/video-madrid.MOV";
 import styled from "styled-components";
 
 const VideoMadrid = () => {
   return (
+    <>
+    <HeaderTitle>
+    <h2>/.Video Experience</h2>
+    <div class="elemento-con-texto">
+        </div>
+  </HeaderTitle>
     <VideoMadridContainer>
       <video className="video" src={coverVideo} autoPlay loop muted />
       <TextContainer>
-        <h3>Video expirience.</h3>
+        {/* <h3></h3>
         <p>
-         Diponemos de grandes especialistas en video.
-        </p>
+
+        </p> */}
       </TextContainer>
     </VideoMadridContainer>
+    </>
   );
 };
 
@@ -50,6 +55,22 @@ const VideoMadridContainer = styled.div`
       rgba(20, 20, 20, 0.4) 50%,
       rgba(83, 100, 141, 0) 100%
     );
+  }
+`;
+
+const HeaderTitle = styled.div`
+margin-left: 5%;
+margin-top:15%;
+  h2 {
+    font-size: 80px;
+    font-family: "APERCU";
+  }
+
+  @media (max-width: 440px) {
+    h1 {
+      font-size: 60px;
+      white-space: wrap;
+    }
   }
 `;
 

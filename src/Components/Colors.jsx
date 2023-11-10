@@ -6,6 +6,8 @@ const ColorsSection = ({ colors, typ }) => {
     <ColorsContainer>
       <ColorsTitle>
         <h2>/.Trabajamos para ayudarte a darle personalidad a tu negocio.</h2>
+        <div class="elemento-con-texto">
+        </div>
       </ColorsTitle>
       <ColorsText>
         <div className="rgba">
@@ -30,7 +32,7 @@ const ColorsSection = ({ colors, typ }) => {
           <p className="rgba-text">#000000</p>
           <p className="colorE">{colors}</p>
         </div>
-        <div class="ActoContainerBlue">Acto I.</div>
+        <div class="ActoContainerBlue">Act I.</div>
       </ColorsText>
       {/* 
       <ColorsText>
