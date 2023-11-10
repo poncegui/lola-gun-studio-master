@@ -1,4 +1,4 @@
-import './CircleMoving.css';
+import "./CircleMoving.css";
 
 export const CircleMoving = () => {
   return (

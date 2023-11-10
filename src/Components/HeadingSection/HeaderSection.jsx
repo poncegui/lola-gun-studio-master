@@ -14,6 +14,22 @@ const HeaderSection = () => {
     <HeaderContainer>
       <HeaderTitle>
         <h1>/.LOLA GUN STUDIO</h1>
+        <div class="elemento-con-texto">
+          <p>/.LOLA GUN STUDIO</p>
+          <p>/.LOLA GUN STUDIO</p>
+          <p>/.LOLA GUN STUDIO</p>
+          <p>/.LOLA GUN STUDIO</p>
+          <p>/.LOLA GUN STUDIO</p>
+          <p>/.LOLA GUN STUDIO</p>
+          <p>/.LOLA GUN STUDIO</p>
+          <p>/.LOLA GUN STUDIO</p>
+          <p>/.LOLA GUN STUDIO</p>
+          <p>/.LOLA GUN STUDIO</p>
+          <p>/.LOLA GUN STUDIO</p>
+          <p>/.LOLA GUN STUDIO</p>
+          <p>/.LOLA GUN STUDIO</p>
+          <p>/.LOLA GUN STUDIO</p>
+        </div>
       </HeaderTitle>
       <MarginBottom margin="1rem" />
       <TextHeaderContainers>
@@ -58,8 +74,6 @@ const HeaderContainer = styled.section`
   &:hover h2 {
     transition: 0.5s all ease;
   }
-  /* Esti
-  los para el botón */
 
   h2 {
     position: relative;

@@ -11,8 +11,5 @@
     "main.0e5a7404.css.map": "./static/css/main.0e5a7404.css.map",
     "main.fda9857c.js.map": "./static/js/main.fda9857c.js.map"
   },
-  "entrypoints": [
-    "static/css/main.0e5a7404.css",
-    "static/js/main.fda9857c.js"
-  ]
+  "entrypoints": ["static/css/main.0e5a7404.css", "static/js/main.fda9857c.js"]
 }

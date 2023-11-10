@@ -5,3 +5,57 @@
   font-weight: normal;
   letter-spacing: -5px;
 }
+
+/* Estilo inicial del elemento */
+.elemento-con-texto {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  text-align: start;
+  line-height: 100px;
+  /* El texto estará oculto inicialmente */
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.elemento-con-texto:hover {
+  overflow: visible;
+}
+
+.elementosHover {
+  text-align: start;
+  line-height: 100px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.elementosHover:hover {
+  overflow: visible;
+}
+
+.ActoContainerBlue {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  text-align: center;
+  line-height: 100px;
+  /* El texto estará oculto inicialmente */
+  overflow: hidden;
+  position: relative;
+  left: 15rem;
+}
+
+/* Al pasar el cursor sobre el elemento, mostrar el texto */
+.ActoContainerBlue:hover {
+  overflow: visible;
+}

@@ -2,6 +2,7 @@ import "../App.css";
 
 import Colors from "../Components/Colors";
 import HeaderSection from "../Components/HeadingSection/HeaderSection";
+import VideoMadrid from "../Components/VideoMadrid";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <HeaderSection />
       </div>
       <Colors colors="colors" typ="fonts" />
+      <VideoMadrid />
     </>
   );
 }

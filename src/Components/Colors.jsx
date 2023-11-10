@@ -30,6 +30,7 @@ const ColorsSection = ({ colors, typ }) => {
           <p className="rgba-text">#000000</p>
           <p className="colorE">{colors}</p>
         </div>
+        <div class="ActoContainerBlue">Acto I.</div>
       </ColorsText>
       {/* 
       <ColorsText>
@@ -82,6 +83,8 @@ const ColorsContainer = styled.section`
 const ColorsTitle = styled.div`
   text-align: right;
   width: 70%;
+  /* display: flex;
+  flex-direction:column-gap; */
 
   h2 {
     font-size: 80px;
